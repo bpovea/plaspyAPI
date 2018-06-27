@@ -7,7 +7,7 @@ stimate road traffic by GPS points.
 Configuration 
 --------------------
 
-Before execute it's necesary to define the main values in a file called setting_local.py.
+Before execute it's necesary to define the main values in a file called settings_local.py.
 
 The main values are:
 
