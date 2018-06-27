@@ -1,13 +1,14 @@
 import datetime
 import urllib
 import inspect
+import settings_local
 from datetime import timedelta
 from urllib.request import Request
 
 class PRequest:
-    Account="user@plaspy.com"
-    ApiKey = "MyAPIKey"
-    IdDevice = "IdDevice"
+    Account = settings_local.account
+    ApiKey = settings_local.apiKey
+    IdDevice = settings_local.idDevice
     LastPosition = True
     StartUTC = str(datetime.datetime.utcnow() - timedelta(hours=12))
     EndUTC = str(datetime.datetime.utcnow())
